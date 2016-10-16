@@ -9,7 +9,14 @@
 
 }
 
-.inicio {
+.container {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0;
+	padding: 0;
+}
+
+body {
 	background-image: url(../image/inicio.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -17,44 +24,35 @@
 	width: 100%;
 }
 
-.bg-poem .poem {
-	background: rgba(12, 15, 15, 0.6);
-	width: 70%;
-	margin: 5% 30%;
-	padding: 5%;
-	color: #fff;
-}
 
-.bg-poem .poem p {
-	font-family: "Satisfy", Sans-serif;
-	font-size: 25px;
-}
 
-.bg-poem .poem h4 {
-	font-family: "Homemade Apple";
-	font-size: 30px;
-}
 
+
+
+
+/*
 .buttons {
-	width: 30%;
+	width: 50%;
 	margin: 2% 0;
+	background: violet;
 }
 
 .buttons .image img {
-	width: 100%;
+	background-size: 100% 100%;
 	height: 390px;
 	margin-bottom: 30px;
 	border: 3px solid #2A2727;
 }
 
 .buttons button {
-	width: 60%;
+	width: 20%;
 	height: 40px;
 	background: rgba(12, 15, 15, 0.2);
 	padding: 0 0 0 17%;
-	margin: 2% 10% 2% 20%;
 	border: 2px solid black;
 	border-radius: 10px;
+	display: block;
+	margin: 2% 4%;
 }
 
 .buttons button:hover {
@@ -72,3 +70,102 @@
 .buttons button .dedic a {
 	left: 0;
 }
+
+.contenid {
+	width: 50%;
+	background: green;
+}
+
+.bg-poem .poem {
+	background: rgba(12, 15, 15, 0.6);
+	width: 70%;
+	margin: 8% 17%;
+	padding: 5%;
+	color: #fff;
+}
+
+.bg-poem .poem p {
+	font-family: "Satisfy", Sans-serif;
+	font-size: 18px;
+}
+
+.bg-poem .poem h4 {
+	font-family: "Homemade Apple";
+	font-size: 20px;
+*/
+
+
+.img {
+	height: 500px;
+
+}
+
+.img .image {
+	width: 100%;
+	height: 450px;
+}
+
+.img .image img {
+	width: 80%;
+	height: 450px;
+	border: 3px solid black;
+	margin: 5% 10%;
+}
+
+.botones {
+	width: 100%;
+	margin: 7% 20% 0 0;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.botones .buttons button {
+	background: rgba(12, 15, 15, 0.2);
+	border: 2px solid black;
+	border-radius: 7px;
+	margin: 4% 0;
+	width: 20%;
+	height: 40px;
+
+}
+
+.botones .buttons button:hover {
+	background: #5D6D7E;
+	border: 2px solid black;
+}
+
+.botones .buttons button a {
+	text-decoration: none;
+	color: #071322;
+	font-size: 16px;
+}
+
+.botones .buttons .dedic {
+	margin-left: 4%;
+}
+
+
+.contenid {
+	height: 500px;
+}
+
+.contenid .bg-poem {
+	background: rgba(12, 15, 15, 0.6);
+	width: 80%;
+	margin: 5% 12%;
+	padding: 5%;
+	color: #fff;
+}
+
+.contenid .bg-poem h4 {
+	font-family: "Homemade Apple";
+	font-size: 22px;
+}
+
+.contenid .bg-poem p {
+	font-family: "Satisfy";
+	font-size: 20px;
+}
+
+
+
